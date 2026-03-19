@@ -1,13 +1,15 @@
 # Week 1: TX00EX91 - Machine Learning
 
-This page contains the Week 1 session overview, supporting materials, activities, and homework.
 
+> [!IMPORTANT]  
+> [Zoom recording](https://metropoliafi-my.sharepoint.com/:f:/g/personal/samiben_metropolia_fi/IgABbA239WdjSYlP3xOOAmGsAZQgNihQ8gQWrGZczGYmE_E?e=EGojlg)
 
-### Announcements
+<!-- the link will be added after the session. -->
 
-- Zoom recording: the link will be added after the session.
 
 ---
+
+This page contains the Week 1 session overview, supporting materials, activities, and homework.
 
 ### Tentative Timeline
 
@@ -114,3 +116,23 @@ This page contains the Week 1 session overview, supporting materials, activities
 
 
 
+
+
+<!-- 
+
+> [!NOTE]  
+> Highlights information that users should take into account, even when skimming.
+
+> [!TIP]
+> Optional information to help a user be more successful.
+
+> [!IMPORTANT]  
+> Crucial information necessary for users to succeed.
+
+> [!WARNING]  
+> Critical content demanding immediate user attention due to potential risks.
+
+> [!CAUTION]
+> Negative potential consequences of an action. 
+
+-->
