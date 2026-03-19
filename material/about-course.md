@@ -1,12 +1,14 @@
-# Title: Machine Learning Sessions
+# Machine Learning Sessions
 
-## Course Structure:  
+## Course Structure
 
-This course "Cloud Computing Fundamentals and Machine Learning" is divided into two complementary parts: Machine Learning (60%) and Cloud Computing (40%). 
+The course **Cloud Computing Fundamentals and Machine Learning** is divided into two complementary parts:
+- **Machine Learning:** 60%
+- **Cloud Computing:** 40%
 
-The Machine Learning (ML) sessions are scheduled for **Tuesdays** from **9:00 to 12:00** and will be conducted via Zoom. In these hands-on sessions, you will explore the fundamentals of machine learning, natural language processing (NLP), and advanced tools like large language models (LLMs). 
+The Machine Learning sessions take place on **Thursdays** from **13:00 to 16:00** and are conducted via Zoom. These are hands-on sessions in which you will explore the fundamentals of machine learning, natural language processing (NLP), and modern tools such as large language models (LLMs).
 
-This part of the course is designed for beginners, requiring minimal programming or advanced mathematics. Think of it as "Machine Learning Simplified"—making powerful techniques accessible to everyone. By the end of the 8 weeks, you will construct a fully functional project, combining classical ML, neural networks, and cutting-edge models like BERT and LLMs to tackle real-world problems such as:
+This part of the course is designed for beginners and requires only minimal programming and mathematics. The aim is to make machine learning accessible and practical. By the end of the 8-week module, you will build a functional project that combines classical ML, neural networks, and modern language models such as BERT and LLMs to address real-world tasks such as:
 - Log classification
 - Customer support ticket categorization
 - Fraud detection in bank transactions
@@ -14,25 +16,38 @@ This part of the course is designed for beginners, requiring minimal programming
 
 ### Overview
 
-The Machine Learning part of the course introduces foundational and advanced ML concepts in an incremental, engaging manner:
-- Week 1 starts with ML foundations and brainstorming project ideas. 
-- You'll progress through classical ML techniques (e.g., regression and classification), neural networks, and deep learning.
-- The focus will shift to modern NLP techniques like BERT and the application of state-of-the-art LLMs.
+The Machine Learning part of the course introduces foundational and more advanced ML concepts in an incremental way:
+- Week 1 begins with ML foundations and project brainstorming.
+- You will then move on to classical ML techniques such as regression and classification, followed by neural networks and deep learning.
+- Later sessions introduce modern NLP techniques such as BERT and the practical use of LLMs.
 
-By the final week, you will integrate all these techniques into a hybrid AI system. These systems balance rule-based approaches, ML algorithms, and human feedback to solve complex problems. 
+By the final week, you will bring these ideas together in a hybrid AI system. Such systems combine rule-based approaches, machine learning models, and human feedback to solve more complex problems.
 
-Why focus on LLMs? Understanding and leveraging large language models is now critical for professionals—recent industry trends indicate that companies without GPT-like tools may face significant challenges in the coming years.
+Why focus on LLMs? Understanding how large language models work, how they are used, and where they are useful has become increasingly important in many professional fields.
 
 
 ### Learning Outcomes
 
 By completing this course, you will:
 
-1. Gain **some** practical experience with foundational and introductory advanced ML techniques.
-2. Build **basic** skills in applying classification and regression techniques to real-world datasets.
-3. Learn to use NLP tools, **starting from a high-level perspective**, such as BERT and LLMs, for advanced problem-solving.
-4. Design and implement **simple** hybrid AI systems that combine rule-based approaches, ML, and human feedback.
+1. Gain practical experience with foundational and introductory advanced machine learning techniques.
+2. Build basic skills in applying classification and regression methods to real-world datasets.
+3. Learn how to use LLMs through API calls.
+4. Design and implement **basic hybrid AI system**.
 5. Deliver a functional AI project that addresses a real-world challenge.
+
+
+### Weekly Topics: **Tentative**
+
+1. Week 1: ML Foundations and Project Brainstorming
+2. Week 2: Working with Data
+3. Week 3: Classical ML – Regression and Classification
+4. Week 4: Neural Networks 
+5. Week 5: Deep Learning and Large Language Models (LLMs)
+6. Week 6: Convolutional Neural Networks (CNNs) 
+7. Week 7: Edge Intelligence (AI Agents, Tool Calling)
+8. Week 8: Project Presentations 
+
 
 
 ### Assessment
@@ -43,10 +58,9 @@ Machine Learning accounts for 60% of your final grade. Your overall grade will b
   - Weekly hands-on exercises aligned with the session topics.
   - Attendance is mandatory to earn grades for group activities. However, missed sessions can be made up during the final weeks of the course.
 - Feedback at the End of the Course: **80 points**.
-- Group Presentations: **100 points** (Tuesday, 6.5.2025).
-- Group Projects: **260 points** (Deadline: 6.5.2025).
-  - Details on criteria will be shared separately.
-  <!-- - A hybrid AI system tackling a chosen real-world problem. -->
+- Group Presentations: **100 points** (Thursday, 7.5.2026).
+- Group Projects: **260 points** (Deadline: 7.5.2026).
+  - A hybrid AI system that addresses a chosen real-world problem. Details of the assessment criteria will be shared separately.
 
 #### Grading Scale:
   - Grade 5: 921-1000 points
@@ -56,54 +70,3 @@ Machine Learning accounts for 60% of your final grade. Your overall grade will b
   - Grade 1: 600-650 points
 
 
-
-
-<!-- 
-### Weekly Topics
-
-1. Week 1: ML Foundations and Project Brainstorming
-2. Week 2: Datasets and sklearn Basics
-3. Week 3: Classical ML – Regression and Classification
-4. Week 4: Neural Networks and Deep Learning
-5. Week 5: NLP with BERT
-6. Week 6: Large Language Models (LLMs)
-7. Week 7: AI Agents, Tool Calling, Edge Intelligence (**Tentative**)
-8. Week 8: Project Presentations -->
-
-
-<!-- 
-
-
-### Weekly Topics
-
-1. Week 1: ML Foundations and Project Brainstorming
-   - Topics: Types of ML; Colab basics; Course introduction.
-   - Outcome: Students learn ML basics, select a project idea, and set up their Colab environment.
-
-2. Week 2: Datasets and sklearn Basics
-   - Topics: Preprocessing datasets; sklearn for classification and regression; Generating synthetic data for the project using LLMs.
-   - Outcome: Students build their first ML models and expand their project datasets.
-
-3. Week 3: Classical ML – Regression and Classification
-   - Topics: K-NN and DecisionTreeClassifier() for classification; K-NN and DecisionTreeRegressor()for regression.
-   - Outcome: Students will understand and implement both classification and regression techniques. They will build models using K-NN and Decision Tree algorithms, evaluate their performance with metrics such as accuracy and mean squared error (MSE), and apply these models to their project datasets.
-
-4. Week 4: Neural Networks and Deep Learning
-   - Topics: Basics of neural networks, advanced synthetic data generation with LLMs.
-   - Outcome: Students experiment with neural networks for their projects.
-
-5. Week 5: NLP with BERT
-   - Topics: Pre-trained models, text embeddings, and fine-tuning with BERT.
-   - Outcome: Students use BERT for project-based classification tasks.
-
-6. Week 6: Large Language Models (LLMs)
-   - Topics: integrating LLMs into workflows.
-   - Outcome: Students augment their projects with LLM-based solutions.
-
-7. Week 7: AI Agents vs Tool Calling vs Edge Intelligence  
-
-8. Week 8: Project Presentations
-   - Topics: Project presentations, discussions, and course wrap-up.
-   - Outcome: Students showcase their completed AI projects.
-
--->

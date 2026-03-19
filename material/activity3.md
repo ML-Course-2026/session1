@@ -1,215 +1,370 @@
-# activity 3
+# Activity 3: More Practice with Google Colab
 
-> In part 2 and part 3, the goal **is not to understand the code itself**. Instead, it's an opportunity to `experiment with Google Colab` and become familiar with `using code cells exclusively`.
+This optional activity is for practicing how to use Google Colab.
 
-### Part 1/3: Using Google Colab with Basic Python
+The main goal is to become comfortable with:
+- opening a notebook,
+- adding text cells and code cells,
+- running code cells,
+- copying code into cells,
+- viewing outputs,
+- saving and sharing your work.
 
-**Step 1: Accessing Google Colab**
-- Open your web browser and navigate to [Google Colab](https://colab.research.google.com/).
-- Sign in with your Google account. If you don't have one, you'll need to create one.
+### Part 1 of 2: First Steps in Google Colab
 
-**Step 2: Creating a New Notebook**
-- Click on the "New Notebook" button to create a new Colab notebook.
+In this part, you will practice the most basic Colab actions. The goal is to learn how to open a notebook, add cells, run a small piece of Python code, and save your work.
 
-**Step 3: Writing Basic Python Code**
-- In the first cell of your notebook, type the following code to print "Hello, world!":
+1. Open [Google Colab](https://colab.research.google.com/).
+2. Sign in with your **Personal** Google account.
+3. Create a new notebook.
+4. Rename the notebook so it has a clear name, for example: **Activity 3 - Colab Practice**.
+5. Add a **text cell** at the top of the notebook and type a short title, such as **My Colab Practice Notebook**.
+6. Add one **code cell** below the text cell.
+7. In the code cell, type and run the following code:
 
 ```python
 print("Hello, world!")
 ```
 
-- To execute the code in the cell, either press Shift + Enter or click on the "Play" button located on the left side of the cell.
+8. Run the cell by pressing **Shift + Enter** or by clicking the **Run** button.
+9. Confirm that the output appears below the cell.
+10. Save your notebook to Google Drive.
+11. If you are working with others, use the **Share** button to share the notebook.
 
-**Step 4: Importing Libraries**
-- Importing libraries allows you to extend the functionality of Python. Let's import the pandas library as an example:
+### Part 2 of 2: Markdown Basics in Colab
 
-```python
-import pandas as pd
+In this part, you will practice using **Markdown text cells** in Colab. You do not need much Python here. The main goal is to learn how to format text so your notebook is easier to read.
+
+Colab has two main cell types:
+- **Code cells** for Python code
+- **Text cells** for Markdown
+
+To edit Markdown in Colab, insert a text cell and double-click it to see the Markdown source.
+
+1. Add a new **text cell**.
+2. Copy the example below into the text cell.
+3. Run the text cell so you can see the formatted result.
+4. After that, modify the text with your own group name, course name, or short notes.
+
+Use this example, adapted from the Colab Markdown guide and basic Markdown syntax examples:
+
+```markdown
+# My Colab Markdown Practice
+
+## About This Notebook
+
+This notebook is for practicing **Markdown** in Google Colab.
+
+We can make text *italic*, **bold**, or `monospace`.
+
+### A Short List
+
+- Open Colab
+- Add a text cell
+- Add a code cell
+
+### A Numbered List
+
+1. Write Markdown
+2. Run the text cell
+3. Check the formatted output
+
+### A Link
+
+Visit [Google Colab](https://colab.research.google.com/).
+
+### A Quote
+
+> Markdown helps make notebooks easier to read.
+
+---
 ```
 
-**Step 5: Loading Data with Pandas**
-- You can use pandas to load data from various sources. For example, let's load a CSV file named "iris.data" from a URL:
+5. Add another **text cell** and create a small table like this:
 
-```python
-url = 'https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data'
-df = pd.read_csv(url)
+```markdown
+| Item | Meaning |
+|---|---|
+| Text cell | Used for Markdown |
+| Code cell | Used for Python |
 ```
 
--
-**Step 6: Exploring Data**
-- Once the data is loaded, you can explore it using pandas functions. For example, you can display the first few rows of the DataFrame:
+6. Run the table cell and check that the table appears correctly.
+7. Add one final **code cell** with only a very small amount of Python:
 
 ```python
-df.head()
+print("Markdown and Python can be used in the same Colab notebook.")
 ```
 
-**Step 7: Analyzing Data**
-- You can perform various data analysis tasks using pandas. For example, you can calculate summary statistics:
+8. Run the code cell.
+9. Save your notebook.
 
-```python
-summary_stats = df.describe()
-print(summary_stats)
+### What You Should Learn from This Activity
+
+After this activity, you should be able to:
+- open Google Colab and create a notebook,
+- add both text cells and code cells,
+- write simple Markdown in a text cell,
+- run a small Python code cell,
+- save and share your notebook.
+
+You do **not** need to understand advanced Python in this activity. The focus is on using Colab and formatting notebook content clearly.
+
+### Markdown Reference Used in This Lab
+
+Below is a short explanation of the Markdown elements used in this activity.
+
+#### 1. Headings
+Headings create titles and section titles in a text cell.
+
+Example:
+
+```markdown
+# Main Title
+## Section Title
+### Smaller Section Title
 ```
 
-**Step 8: Saving Your Work**
-- To save your work, go to File > Save or File > Save a Copy in Drive. This will save your notebook to your Google Drive.
+- `#` creates a large heading.
+- `##` creates a smaller heading.
+- `###` creates an even smaller heading.
 
-**Step 9: Sharing Your Notebook**
-- You can share your notebook with others by clicking on the Share button in the top-right corner of the Colab interface. You can either share it directly with specific people or generate a shareable link.
+#### 2. Bold Text
+Bold text highlights important words.
 
-**Step 10: Exiting Google Colab**
-- Once you've finished your work, you can close the Colab notebook tab in your browser. Your work will be automatically saved in your Google Drive.
+Example:
 
-### Part 2/3: Visualization
+```markdown
+This is **bold** text.
+```
 
-> In this part, the goal **is not to understand the code itself**. Instead, it's an opportunity to `experiment with Google Colab` and become familiar with `using code cells exclusively`.
+#### 3. Italic Text
+Italic text is useful for light emphasis.
 
-To visualize the Iris dataset, you can use various plotting libraries in Python, such as Matplotlib, Seaborn, or Plotly. Here's an example using Matplotlib and Seaborn to create some basic visualizations:
+Example:
 
-First, let's import the required libraries and load the Iris dataset:
+```markdown
+This is *italic* text.
+```
+
+#### 4. Monospace or Inline Code
+Use backticks for code words, commands, or short code fragments.
+
+Example:
+
+```markdown
+Use `print()` in a Python code cell.
+```
+
+#### 5. Unordered Lists
+Unordered lists are bullet-point lists.
+
+Example:
+
+```markdown
+- First item
+- Second item
+- Third item
+```
+
+#### 6. Ordered Lists
+Ordered lists are numbered lists.
+
+Example:
+
+```markdown
+1. First step
+2. Second step
+3. Third step
+```
+
+#### 7. Links
+Links let you connect to websites.
+
+Example:
+
+```markdown
+[Google Colab](https://colab.research.google.com/)
+```
+
+#### 8. Blockquotes
+Blockquotes are useful for notes, quotes, or highlighted comments.
+
+Example:
+
+```markdown
+> This is a quoted note.
+```
+
+#### 9. Horizontal Rule
+A horizontal rule creates a visual divider between sections.
+
+Example:
+
+```markdown
+---
+```
+
+#### 10. Tables
+Tables organize information into rows and columns.
+
+Example:
+
+```markdown
+| Item | Meaning |
+|---|---|
+| Text cell | Used for Markdown |
+| Code cell | Used for Python |
+```
+
+### Final Note
+
+In Google Colab, Markdown is used in **text cells** and Python is used in **code cells**.
+If you forget the syntax, you can return to this section and copy the examples.
+
+
+
+
+
+<!-- 
+
+
+In Parts 2 and 3, the goal is **not** to fully understand the code. You are using the code as a way to practice the Colab workflow. 
+
+### Part 2 of 3: Creating Simple Visualizations in Colab
+
+In this part, the goal is **not** to understand every line of code. The goal is to practice copying code into Colab, running cells, and viewing outputs.
+
+1. Open a new Colab notebook, or continue in the same notebook if your teacher allows it.
+2. Copy the following code into a code cell and run it:
 
 ```python
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Load the Iris dataset
-url = 'https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data'
-column_names = ['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'species']
+url = "https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data"
+column_names = ["sepal_length", "sepal_width", "petal_length", "petal_width", "species"]
 iris = pd.read_csv(url, header=None, names=column_names)
 ```
 
-Now, let's create some basic visualizations:
-
-1. **Pairplot**: This plot shows pairwise relationships between variables along with the distribution of each variable.
+3. Add a new code cell and run this pairplot example:
 
 ```python
-sns.pairplot(iris, hue='species')
+sns.pairplot(iris, hue="species")
 plt.show()
 ```
 
-2. **Boxplot**: This plot shows the distribution of a continuous variable (e.g., sepal length) for different categories (e.g., species).
+4. Add a new code cell and run this boxplot example:
 
 ```python
 plt.figure(figsize=(10, 6))
-sns.boxplot(data=iris, x='species', y='sepal_length')
-plt.title('Sepal Length Distribution by Species')
+sns.boxplot(data=iris, x="species", y="sepal_length")
+plt.title("Sepal Length Distribution by Species")
 plt.show()
 ```
 
-3. **Histogram**: This plot shows the distribution of a single variable (e.g., sepal length).
+5. Add a new code cell and run this histogram example:
 
 ```python
 plt.figure(figsize=(8, 6))
-sns.histplot(data=iris, x='petal_width', kde=True)
-plt.title('Petal Width Distribution')
-plt.xlabel('Petal Width')
-plt.ylabel('Frequency')
+sns.histplot(data=iris, x="petal_width", kde=True)
+plt.title("Petal Width Distribution")
+plt.xlabel("Petal Width")
+plt.ylabel("Frequency")
 plt.show()
 ```
 
-### Part 3/3: Using MNIST Dataset in Google Colab
+6. Look at the outputs and confirm that each chart appears below its cell.
+7. Save your notebook.
 
-> In this part, the goal **is not to understand the code itself**. Instead, it's an opportunity to `experiment with Google Colab` and become familiar with `using code cells exclusively`.
+### Part 3 of 3: Running an MNIST Example in Colab
 
+In this part, the goal is again **not** to fully understand the code. The goal is to practice running a longer Colab workflow and seeing different types of output.
 
-**Step 1: Accessing Google Colab**
-- Open your web browser and navigate to [Google Colab](https://colab.research.google.com/).
-- Sign in with your Google account. If you don't have one, you'll need to create one.
-
-**Step 2: Creating a New Notebook**
-- Click on the "New Notebook" button to create a new Colab notebook.
-
-**Step 3: Loading the MNIST Dataset**
-- In the first cell of your notebook, install the TensorFlow library, which includes the MNIST dataset:
+1. Open a new Colab notebook, or continue in the same notebook if your teacher allows it.
+2. In a code cell, run the following command:
 
 ```python
 !pip install tensorflow
 ```
 
-- Next, import the TensorFlow library and load the MNIST dataset:
+3. In a new code cell, copy and run the following code to load the MNIST dataset:
 
 ```python
 import tensorflow as tf
+
 mnist = tf.keras.datasets.mnist
 (x_train, y_train), (x_test, y_test) = mnist.load_data()
 ```
 
-**Step 4: Exploring the Dataset**
-- You can explore the loaded dataset to understand its structure and contents. For example, you can display the shape of the training and test data:
+4. In a new code cell, run the following to inspect the dataset:
 
 ```python
-print('Training data shape:', x_train.shape)
-print('Training labels shape:', y_train.shape)
-print('Test data shape:', x_test.shape)
-print('Test labels shape:', y_test.shape)
+print("Training data shape:", x_train.shape)
+print("Training labels shape:", y_train.shape)
+print("Test data shape:", x_test.shape)
+print("Test labels shape:", y_test.shape)
 ```
 
-**Step 5: Preprocessing the Data (Optional)**
-- Depending on your analysis goals, you may need to preprocess the data. For example, you can normalize the pixel values to the range [0, 1]:
+5. If you want, run this optional preprocessing step:
 
 ```python
 x_train, x_test = x_train / 255.0, x_test / 255.0
 ```
 
-**Step 6: Building a Simple Model (Optional)**
-- You can build a simple neural network model to classify the MNIST digits. Here's an example of a basic model using TensorFlow's Keras API:
+6. If you want, run this optional model-building example:
 
 ```python
 model = tf.keras.models.Sequential([
     tf.keras.layers.Flatten(input_shape=(28, 28)),
-    tf.keras.layers.Dense(128, activation='relu'),
+    tf.keras.layers.Dense(128, activation="relu"),
     tf.keras.layers.Dropout(0.2),
     tf.keras.layers.Dense(10)
 ])
 
-model.compile(optimizer='adam',
-              loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),
-              metrics=['accuracy'])
+model.compile(
+    optimizer="adam",
+    loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),
+    metrics=["accuracy"]
+)
 
 model.summary()
 ```
 
-**Step 7: Training the Model (Optional)**
-- You can train the model using the training data and evaluate its performance on the test data:
+7. If you want, run this optional training example:
 
 ```python
 model.fit(x_train, y_train, epochs=5)
 test_loss, test_acc = model.evaluate(x_test, y_test, verbose=2)
-print('\nTest accuracy:', test_acc)
+print("\nTest accuracy:", test_acc)
 ```
 
-**Step 8: Saving Your Work**
-- To save your work, go to File > Save or File > Save a Copy in Drive. This will save your notebook to your Google Drive.
-
-**Step 9: Visualization**
-
-To visualize the images in the MNIST dataset, you can use Matplotlib, which is a popular plotting library in Python. Here's how you can visualize MNIST images in Google Colab:
+8. To view sample images from the dataset, run this code in a new cell:
 
 ```python
 import matplotlib.pyplot as plt
 
-# Plot the first few images from the MNIST dataset
 plt.figure(figsize=(10, 10))
 for i in range(25):
     plt.subplot(5, 5, i + 1)
-    plt.imshow(x_train[i], cmap='gray')
-    plt.axis('off')
-    plt.title(f'Label: {y_train[i]}')
+    plt.imshow(x_train[i], cmap="gray")
+    plt.axis("off")
+    plt.title(f"Label: {y_train[i]}")
 plt.show()
 ```
 
-In this code:
+9. Confirm that a grid of handwritten digit images appears below the cell.
+10. Save your notebook to Google Drive.
 
-- We import Matplotlib as `plt`.
-- We create a new figure with a size of 10x10 inches using `plt.figure(figsize=(10, 10))`.
-- We loop through the first 25 images in the training dataset.
-- For each image, we plot it using `plt.imshow()` with a grayscale colormap (`cmap='gray'`).
-- We turn off the axes using `plt.axis('off')` to remove the axis ticks and labels.
-- We set the title of each subplot to the corresponding label using `plt.title()`.
+### What You Should Learn from This Activity
 
-You can adjust the number of images to display by changing the range in the loop. This code will display a 5x5 grid of images with their corresponding labels.
+After this activity, you should be able to:
+- open Google Colab and create a notebook,
+- add and run code cells,
+- copy code into cells and execute it,
+- view tables, text output, and charts,
+- save and share your notebook.
 
-
-
-
+You do **not** need to fully understand all of the code in Parts 2 and 3.
+-->

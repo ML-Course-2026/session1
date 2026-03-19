@@ -1,10 +1,10 @@
-# Activity 2: Exploring Python with Google Colab and Copilot
+# Activity 2: Exploring Python with Google Colab and AI Assistants
 
-This lab introduces the basics of working with Python in Google Colab. You will practice writing simple Python code, formatting explanations with Markdown, and using Copilot to support your work. Complete the tasks in order and keep all of your work in one shared notebook.
+This lab introduces the basics of working with Python in Google Colab. You will practice writing simple Python code, formatting explanations with Markdown, and using an AI assistant to support your work. Complete the tasks in order and keep all of your work in one shared notebook.
 
 #### **1. Getting Started**
 1. Open [Google Colab](https://colab.research.google.com).
-2. Sign in with your personal Google account or your Metropolia account.
+2. Sign in with your personal Google account **NOT** your Metropolia account.
 3. Create a new notebook by selecting **File -> New notebook**.
 4. Rename the notebook clearly, for example: **Python Lab - Group 3**.
 5. Add the names of all group members in the first text cell so the teacher can identify your work.
@@ -15,7 +15,7 @@ This lab introduces the basics of working with Python in Google Colab. You will 
 Example notebook title:
 
 ```text
-Python Lab - Group 3
+Group 3 - Session 1 Lab 2
 ```
 
 Example first text cell:
@@ -24,17 +24,44 @@ Example first text cell:
 # Python Lab - Group 3
 
 **Group members:**
-- Anna Example
-- Ben Example
-- Chen Example
+- Anna 
+- Ben 
+- Chen
 ```
 
 </details>
 
-#### **2. Python and Markdown Basics**
-Before using Copilot, complete one very simple exercise to understand the difference between a **code cell** and a **text cell** in Colab.
+#### **2. Understanding LLMs and AI Assistants**
+Before starting the coding tasks, make sure you understand what tool you are using.
 
-1. Insert a **text cell** and write a short heading and one sentence describing what your notebook is about.
+1. An **LLM** is a **large language model**. It is an AI system trained on a large amount of text so that it can answer questions, explain ideas, and generate code.
+2. An **AI assistant** is the chat tool or interface that you use to interact with the model. In simple terms, the **LLM** is the model behind the system, and the **AI assistant** is the tool you see on the screen.
+3. In this lab, you may use an AI assistant powered by an LLM, such as:
+   - **Gemini in Colab**: the built-in chat or help tools should be available in your Colab environment,
+   - [**Copilot**](https://copilot.microsoft.com), which can also explain concepts and suggest Python code.
+4. These tools are useful for getting started, but their answers are not always correct.
+5. Always run the code, read it carefully, and test it with your own examples before deciding that it works.
+
+<details>
+<summary>Sample solution</summary>
+
+Example summary you could write in your notebook:
+
+```markdown
+### What is an LLM?
+
+An LLM is a large language model. It can answer questions and generate code from natural language prompts.
+An AI assistant is the tool we use to chat with the model.
+In this lab, we can use tools such as Gemini in Colab, Gemini Flash, or Copilot.
+We still need to test the generated code ourselves.
+```
+
+</details>
+
+#### **3. Python and Markdown Basics**
+Before using an AI assistant, complete one very simple exercise to understand the difference between a **code cell** and a **Markdown text cell** in Colab.
+
+1. Insert a **Markdown text cell** and write a short heading and one sentence describing what your notebook is about.
 2. Insert a **code cell** and write Python code that:
    - stores your name in a variable,
    - prints a greeting,
@@ -55,7 +82,7 @@ This notebook contains simple Python practice tasks.
 Example code cell:
 
 ```python
-name = "Aisha"
+name = "Sami"
 print("Hello,", name)
 print("5 + 3 =", 5 + 3)
 ```
@@ -63,21 +90,21 @@ print("5 + 3 =", 5 + 3)
 Example output:
 
 ```text
-Hello, Aisha
+Hello, Sami
 5 + 3 = 8
 ```
 
 </details>
 
-#### **3. Warm-Up Exercise**
-In this task, you will use Copilot to help you solve a short beginner Python problem.
+#### **4. Warm-Up Exercise**
+In this task, you will use an AI assistant such as **Gemini** or [**Copilot**](https://copilot.microsoft.com/) to help you solve a short beginner Python problem.
 
 1. Open a new code cell in your notebook.
 2. Decide on one simple Python task you want to solve. Examples:
    - "How do I calculate the sum of numbers in Python?"
    - "Write a Python function to check if a number is even."
-3. Open [Copilot](https://copilot.microsoft.com) in your browser.
-4. Ask Copilot for help with your chosen task.
+3. Open Gemini in Colab, Gemini in your browser, or [Copilot](https://copilot.microsoft.com).
+4. Ask the AI assistant for help with your chosen task.
 5. Copy the suggested Python code into your Colab notebook.
 6. Run the code.
 7. Test the code with at least two different inputs and, if needed, improve it.
@@ -85,7 +112,7 @@ In this task, you will use Copilot to help you solve a short beginner Python pro
 <details>
 <summary>Sample solution</summary>
 
-Example prompt to Copilot:
+Example prompt to an AI assistant:
 
 ```text
 Write a simple Python function that checks whether a number is even.
@@ -110,14 +137,14 @@ False
 
 </details>
 
-#### **4. Exploring Kaggle Python Tutorials with Copilot**
+#### **5. Exploring Python Tutorials with an AI Assistant**
 Now you will explore one beginner Python concept in more detail.
 
-1. Open the Kaggle Learn Python course: [https://www.kaggle.com/learn/python](https://www.kaggle.com/learn/python).
+1. Visit this tutorial site: [Python Basics](https://www.pythontutorial.net/python-basics/).
 2. Choose one beginner-friendly topic such as **functions**, **loops**, or **lists**.
 3. As a group, read the topic introduction and discuss what the concept does.
-4. Ask Copilot to explain the concept in simple language.
-5. Ask Copilot to generate a short example program.
+4. Ask your AI assistant to explain the concept in simple language.
+5. Ask your AI assistant to generate a short example program.
 6. Copy the example into Colab and run it.
 7. Modify the example so it behaves differently. For example:
    - change the values in a list,
@@ -130,7 +157,7 @@ Now you will explore one beginner Python concept in more detail.
 
 Example chosen topic: **Loops**
 
-Example prompt to Copilot:
+Example prompt to an AI assistant:
 
 ```text
 Explain Python for loops in a simple way and give me a short example that prints items from a list.
@@ -163,7 +190,7 @@ Now the loop prints four items and shows the label `Fruit:` before each one.
 
 </details>
 
-#### **5. Group Task**
+#### **6. Group Task**
 Use what you have learned to build a small Python program together.
 
 1. As a group, choose one small project idea.
@@ -172,7 +199,7 @@ Use what you have learned to build a small Python program together.
    - a multiplication table generator,
    - a number guessing game,
    - a simple quiz with two or three questions.
-3. Ask Copilot for a first version of the code.
+3. Ask an AI assistant for a first version of the code.
 4. Copy the code into Colab and run it.
 5. Improve the code together by making it clearer, more correct, or more user-friendly.
 6. Test the program carefully.
@@ -206,7 +233,7 @@ The program worked well after we checked that the list was not empty.
 
 </details>
 
-#### **6. Collaboration and Sharing**
+#### **7. Collaboration and Sharing**
 1. Use the **Share** button in Google Colab.
 2. Give edit or view access to your group members, depending on how you want to work.
 3. Check that every group member can open the notebook.
@@ -229,17 +256,17 @@ Example final checklist:
 - Group members added
 - Basic Python and Markdown task completed
 - Warm-up task completed
-- Kaggle topic explored and modified
-- Group project completed
+- Python topic explored and modified
+- Group task completed
 - Notebook shared with group members
 ```
 
 </details>
 
 #### **Post-Lab Exploration (Optional)**
-1. Continue exploring this beginner tutorial: [https://openpython.org/articles/10-python-basics-every-beginner-should-master](https://openpython.org/articles/10-python-basics-every-beginner-should-master).
-2. Use Copilot to ask follow-up questions if you do not understand a concept.
-3. Improve your group project by adding one new feature.
+1. Continue exploring this beginner tutorial: [https://www.pythontutorial.net/python-basics/](https://www.pythontutorial.net/python-basics/).
+2. Use an AI assistant to ask follow-up questions if you do not understand a concept.
+3. Improve your group task by adding one new feature.
 4. Write a short note in your notebook describing what you added.
 
 <details>
